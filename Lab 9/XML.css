@@ -1,0 +1,18 @@
+STUDENT {
+  color: rgb(248, 101, 22);
+}
+NAME {
+  font-size: x-large;
+}
+MOBILE  {
+  font-size:larger; 
+}  
+COLLEGEDETAILS {
+  text-indent: 1em; 
+  text-align: justify;
+  color: black;
+}  
+COLLNAME, YEAR {
+  font-size : 25px;
+  font-weight : bold;
+}

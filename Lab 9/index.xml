@@ -1,0 +1,11 @@
+<?xml-stylesheet type="text/css" href="XML.css"?>
+<STUDENT>
+  <NAME>Name:- Ashutosh Maurya</NAME> 
+  <MOBILE>Mobile:- 8726094213</MOBILE>
+  <COLLEGEDETAILS>COLLEGEDETAILS:-
+    <COLLNAME>College Name:- RKGIT</COLLNAME>
+    <ROLLNO>Roll No:- 2000330100069</ROLLNO>
+    <YEAR>Year:- 3RD</YEAR>
+    <BRANCH>Branch:- CSE</BRANCH>
+  </COLLEGEDETAILS>
+</STUDENT>
