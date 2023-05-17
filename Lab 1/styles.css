@@ -1,0 +1,64 @@
+/* CSS CODE */
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.wrapper{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+h1{
+    background-color:  rgb(67, 64, 64);
+    color: white;
+    padding: 10px;
+}
+#name{
+    background-color: darkseagreen;
+    color: white;
+    padding: 10px;
+}
+h2{
+    background-color: rgb(239, 209, 174);
+    padding: 7px;
+}
+.objheading{
+    padding: 20px;
+    list-style-type: none;
+    font-size: 18px;
+}
+.acadquali{
+    width: 70%;
+    margin: 20px 15% 20px 15%;
+    height: 150px;
+    border-collapse: collapse;
+    border-color: black;
+    font-size: 18px;
+}
+.skill{
+    font-size: 18px;
+    list-style-type: none;
+}
+.skill li{
+    margin: 10px;
+}
+.Achivments{
+    font-size: 18px;
+    list-style-type: none;
+}
+.Achivments li{
+    margin: 10px;
+}
+.Personal{
+    font-size: 18px;
+    list-style-type: none;
+}
+.Personal li{
+    margin: 10px;
+}
+footer p{
+    background-color: rgb(67, 64, 64);
+    color: aliceblue;
+    padding: 10px;
+}
