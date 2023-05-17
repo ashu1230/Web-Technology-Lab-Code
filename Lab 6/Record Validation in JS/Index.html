@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>Reg Form</title>
+    <style type="text/css">
+        input[type="text"] { width: 250px; }
+        input[type="submit"], input[type="reset"] {
+            width: 77px;
+            height: 27px;
+            position: relative;left: 180px;
+        }
+        form{
+            text-align: center;
+            font-size: 20px;
+            border: 3px solid black;
+            width: 600px;
+            margin: 20px auto;
+        }
+        td { padding: 5px; }
+        td:first-child {
+            text-align: right;
+            font-weight: bold;
+        }
+        td:last-child { text-align: left; }
+    </style>
+    <script>
+        function validate() {
+            var fname = document.reg_form.fname;
+            var address = document.reg_form.address;
+            var email = document.reg_form.email;
+            var course = document.reg_form.course;
+
+            if (fname.value.length <= 0) {
+                alert("Full Name is required");
+                fname.focus();
+                return false;
+            }
+            if (address.value.length <= 0) {
+                alert("Address is required");
+                address.focus();
+                return false;
+            }
+            if (email.value.length <= 0) {
+                alert("Email Id is required");
+                email.focus();
+                return false;
+            }
+            if (course.value == "select course") {
+                alert("Course is required");
+                course.focus();
+                return false;
+            }
+            return false; 
+        }
+    </script>
+</head>
+<body>
+    <center><h1>Form Validation</h1></center>
+    <hr>
+    <form method="" action="" name="reg_form" onsubmit="return validate()">
+        <h2>Registration Form</h2>
+        <table>
+            <tr>
+                <td><label>Full Name: </label></td>
+                <td>
+                    <input type="text" name="fname" placeholder="Enter Full Name">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Address: </label></td>
+                <td>
+                    <input type="textarea" size="50" name="address" placeholder="Address">
+                </td>
+            </tr>
+            <tr>
+                <td><label>Email Id: </label></td>
+                <td><input type="text" name="email" placeholder="example@gmail.com"></td>
+            </tr>
+            <td><label>Course: </label></td>
+                <td>
+                    <select name="course">
+                        <option value="select course">select course</option>
+                        <option value="HTML">HTML</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" name="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
