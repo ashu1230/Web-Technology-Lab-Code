@@ -1,0 +1,16 @@
+<PRODUCTDETAILS>
+  <FIRSTPRODUCT>
+    <NAME>Name:- Laptop</NAME>
+    <COM.NAME>Apple</COM.NAME>
+    <ID>Id:- 123403930</ID>
+    <RAM>Ram:- 32GB</RAM>
+    <PRICE>Price:- 132562</PRICE>
+  </FIRSTPRODUCT>
+  <SECONDPRODUCT>
+    <NAME>Name:- Book</NAME>
+    <BOOKNAME>JAVA Programming</BOOKNAME>
+    <ID>Id:- 1234039334</ID>
+    <AUTHOR>Author:- Head First Java </AUTHOR>
+    <PRICE>Price:- Rs.840.50</PRICE>
+  </SECONDPRODUCT>
+</PRODUCTDETAILS>
